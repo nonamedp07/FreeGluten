@@ -1,0 +1,103 @@
+.cuerpo{
+    background-color: #f5ebd4;
+}
+.barradenavegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    animation-timeline: scroll();
+    animation-range: 0 200 px;
+    z-index: 10;
+    background-color: #f5ebd4;
+    border-bottom: 1px solid #a05c1c;
+}
+.logonav{
+    height: 60px;
+    width: 80px;
+}
+.nombremarca{
+    padding-left: 10px;
+}
+.links{
+    text-decoration: none;
+    color: #935115;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.links:hover{
+    color: #a05c1c;
+    text-decoration: underline;
+}
+.negrilla{
+    font-weight: bold;
+}
+.logobuycar{
+    height: 35px;
+    width: 40px;
+}
+.marca{
+    display: flex;
+    align-items: center;
+}
+.subpaginas{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.buycar{
+    padding: 20px;
+}
+.primeraseccion{
+    height: 75;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.imagenprincipal{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.segundaseccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.parrafouno{
+    width: 300px;
+}
+.imgsegsec{
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.piedepagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #a05c1c;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.parrafo_footer{
+    width: 500px;
+    text-align: center;
+}
+.imginsta{
+    height: 45px;
+    width: 45px;
+}
